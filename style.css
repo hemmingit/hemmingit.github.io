@@ -1,8 +1,44 @@
-body{
-    color:darkseagreen;
+*{
+    font-family: "Trebuchet MS";
 }
 
-h1{
-    color:red;
 
+h1{
+    color: gray;
+}
+
+.blue{
+    color: aquamarine;
+}
+
+.box{
+    height: 70px;
+    width: 100%;
+    padding: 4px;
+    margin: 0px;
+    margin-bottom: 50px;
+
+    background-color:#131313;
+    
+    /* content */
+    color: #131313;
+    transition: background-color, color 0.3s ease-in-out;
+    
+    
+    /* font */
+    font-weight: 800;
+    font-size: 30px;
+    
+    
+}
+
+.box:hover{
+    background-color: #d5293d;
+    transition: all 0.2s ease-in-out;
+    color: white;
+}
+
+.firsttext{
+    font-size: 30px;
+    margin-left: 20px;
 }
