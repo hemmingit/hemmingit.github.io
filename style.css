@@ -14,12 +14,12 @@
 
     background-color:#131313;
     
-    /* content */
+   
     color: #131313;
     transition: background-color, color 0.3s ease-in-out;
     
     
-    /* font */
+   
     font-weight: 800;
     font-size: 30px;
     
